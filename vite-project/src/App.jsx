@@ -8,6 +8,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 import { UserList } from './components/UserList';
 import { UserForm } from './components/UserForm';
 
+
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
   const [showUserForm, setShowUserForm] = useState(false);
@@ -62,7 +63,7 @@ function App() {
 
                 {showUserForm && (
                   <UserForm
-                    user={currentUser}
+                    currentUser={currentUser}
                     onSave={handleSaveUser}
                     onCancel={handleCancelEdit}
                   />

@@ -61,16 +61,14 @@ mb-2">
                         value={user.nombre}
                         onChange={handleChange}
 
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-
-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 
                         required
                     />
                 </div>
                 <div>
 
-                    <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-
-2">
+                    <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
 
                         Email:
                     </label>
@@ -82,15 +80,13 @@ gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         value={user.email}
                         onChange={handleChange}
 
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-
-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 
                         required
                     />
                 </div>
                 <div>
-                    <label htmlFor="telefono" className="block text-gray-700 text-sm font-bold
-mb-2">
+                    <label htmlFor="telefono" className="block text-gray-700 text-sm font-bold mb-2">
                         Teléfono:
                     </label>
                     <input
@@ -100,8 +96,7 @@ mb-2">
                         value={user.telefono}
                         onChange={handleChange}
 
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-
-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
 
                         required
                     />
